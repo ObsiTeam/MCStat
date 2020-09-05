@@ -1,12 +1,9 @@
 from PIL import Image
-from lib import fore, back, color, reset
-from os import system
+from lib import fore, back, color, reset,cls
 from requests import get
 import sys
 import io
-import time
-import sys
-system("cls")
+cls()
 try:
 	justtrying = sys.argv[1]
 except:
